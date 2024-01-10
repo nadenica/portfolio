@@ -1,0 +1,95 @@
+
+
+.body {
+    font-family: 'Marhey', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #954bba;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.header-text {
+    font-size: 2.5rem;
+    font-family: 'Lemon', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.about-text h2,
+.skills-text h2,
+.projects-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-family: 'Lemon', 'Arial', sans-serif;
+}
+
+.about-text p,
+.skills-text p,
+.projects-text p {
+    font-family: 'Marhey', 'Arial', sans-serif;
+}
+.social-icons {
+    display: flex;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.about-section {
+    background-color: #aa45ac4e;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 2px;
+    height: 100%;
+    background-color: #7f3f9f;
+}
+
+.about-image {
+    margin-left: 20px;
+}
+
+.about-image img {
+    border-radius: 50%;
+    border: 5px solid #954bba;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.image-caption {
+    text-align: center;
+    margin-top: 10px;
+}
